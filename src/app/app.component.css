@@ -42,7 +42,7 @@ p {
   .menu-btn__burger::after {
     transform: translateY(16px);
   }
-  /* ANIMATION */
+  b
   .menu-btn.open .menu-btn__burger {
     transform: translateX(2px);
     background: transparent;
