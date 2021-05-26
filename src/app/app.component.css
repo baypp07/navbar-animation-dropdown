@@ -71,3 +71,8 @@ p {
   li{
     margin-bottom: 20px;
   }
+  .closeli{
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(-10px);
+  }

@@ -5,11 +5,11 @@
             </div>
         
         <nav >
-              <ul role="navigation" class="hidden" [@openClose]="!show ? false : true" >
-                  <li><a href="#">work</a></li>
-                  <li><a href="#">about</a></li>
-                  <li><a href="#">resume</a></li>
-                  <li><a href="#">contact</a></li>
+              <ul role="navigation" class="hidden" [@openClose]="!show ? false : true" [ngClass]="!show ? 'openli' :'closeli'">
+                  <li ><a href="#">work</a></li>
+                  <li ><a href="#">about</a></li>
+                  <li ><a href="#">resume</a></li>
+                  <li ><a href="#">contact</a></li>
               </ul>
           </nav>
       </div>
