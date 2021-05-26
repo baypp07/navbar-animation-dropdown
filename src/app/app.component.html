@@ -1,0 +1,15 @@
+    <div class="menu-section">
+
+            <div (click)="toggle()" [ngClass]="!show ? 'open' : 'menu-btn'" class="menu-btn" >
+                <div class="menu-btn__burger"></div>
+            </div>
+        
+        <nav >
+              <ul role="navigation" class="hidden" [@openClose]="!show ? false : true" >
+                  <li><a href="#">work</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">resume</a></li>
+                  <li><a href="#">contact</a></li>
+              </ul>
+          </nav>
+      </div>
